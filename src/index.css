@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+.bg-paint-texture {
+  background-image: url('./assets/images/paint_background_1782615564892.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Custom bounce micro-animations for feedback */
+@keyframes feedback-pop {
+  0% { transform: scale(0.9); opacity: 0; }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.feedback-pop-animation {
+  animation: feedback-pop 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}

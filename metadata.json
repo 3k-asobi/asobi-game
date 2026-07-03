@@ -1,0 +1,6 @@
+{
+  "name": "色混ぜマスター",
+  "description": "色の組み合わせを当てて、素早く混ぜ合わせるカラーミキシングゲーム！制限時間は60秒。色を混ぜてターゲットの色を再現しよう！",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
